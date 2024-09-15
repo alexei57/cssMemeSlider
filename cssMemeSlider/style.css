@@ -417,7 +417,7 @@ h1 {
 }
 
 .slider-text-wrapp {
-    width: 18%;
+    width: 12rem;
     overflow: hidden;
 }
 
@@ -437,13 +437,6 @@ h1 {
     margin-right: 2rem;
 }
 
-.slide-text:nth-child(2) {
-    margin-right: 0;
-}
-
-.slide-text:nth-child(3) {
-    margin-right: 3rem;
-}
 
 .slider,
 .slider-text {
@@ -517,13 +510,6 @@ h1 {
     background: transparent;
 }
 
-@media (max-width: 1200px) {
-    
-
-    .slider-text-wrapp {
-        width: 20%;
-    }
-}
 
 @media (max-width: 768px) {
     .text-contorls-wrapp {
@@ -547,20 +533,12 @@ h1 {
     }
 
     .slider-text-wrapp {
-        width: 61%;
+        width: 12rem;
     }
 
     .slide-text {
         font-size: 1.1em;
         margin-right: 1.1rem;
-    }
-    
-    .slide-text:nth-child(2) {
-        margin-right: 0.1rem;
-    }
-    
-    .slide-text:nth-child(3) {
-        margin-right: 2rem;
     }
 
     .manual-btn {
