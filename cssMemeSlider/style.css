@@ -495,21 +495,25 @@ h1 {
 #radio-btn-1:checked ~ .container .slider-wrapper .slider,
 #radio-btn-1:checked ~ .container .text-contorls-wrapp .slider-text-wrapp .slider-text {
     margin-left: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 #radio-btn-2:checked ~ .container .slider-wrapper .slider,
 #radio-btn-2:checked ~ .container .text-contorls-wrapp .slider-text-wrapp .slider-text {
     margin-left: -100%;
+    transition: all 0.5s ease-in-out;
 }
 
 #radio-btn-3:checked ~ .container .slider-wrapper .slider,
 #radio-btn-3:checked ~ .container .text-contorls-wrapp .slider-text-wrapp .slider-text {
     margin-left: -200%;
+    transition: all 0.5s ease-in-out;
 }
 
 #radio-btn-4:checked ~ .container .slider-wrapper .slider,
 #radio-btn-4:checked ~ .container .text-contorls-wrapp .slider-text-wrapp .slider-text {
     margin-left: -300%;
+    transition: all 0.5s ease-in-out;
 }
 
 #radio-btn-1:checked ~ .container .text-contorls-wrapp .slider-controls .manual-btn:nth-child(1) .span-manual-btn,
