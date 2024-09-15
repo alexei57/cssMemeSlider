@@ -534,15 +534,21 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+    .text-contorls-wrapp {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+
+    .slider-controls {
+        column-gap: 0;
+        align-self: center;
+    }
+}
 @media (max-width: 320px) {
     h1 {
         font-weight: 300;
         font-size: 1em;
-    }
-
-    .text-contorls-wrapp {
-        flex-direction: column-reverse;
-        gap: 1em;
     }
 
     .slider-text-wrapp {
@@ -560,11 +566,6 @@ h1 {
     
     .slide-text:nth-child(3) {
         margin-right: 2rem;
-    }
-
-    .slider-controls {
-        column-gap: 0;
-        align-self: center;
     }
 
     .manual-btn {
